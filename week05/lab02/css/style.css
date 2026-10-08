@@ -1,0 +1,12 @@
+
+blockquote strong {
+    text-transform: capitalize;
+}
+
+blockquote > em {
+    color: red;
+}
+
+blockquote strong em {
+    text-decoration: underline overline;
+}

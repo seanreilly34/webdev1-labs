@@ -1,0 +1,31 @@
+.pgray{
+    background-color: gray;
+    font-weight: bold;
+}
+
+.pred{
+    background-color: red;
+    font-style: italic;
+}
+
+.ppurple{
+    background-color: purple;
+    color: white;
+}
+
+.important{
+    font-size: 250%;
+}
+
+#fuchsia{
+    background-color: fuchsia;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#bigwords{
+    font-size: 200%;
+    color: green;
+}
