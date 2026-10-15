@@ -42,8 +42,8 @@ nav ul {
    padding: 0;
 }
 
-nav ul li {
-   display: inline;
+nav ul li  {
+  padding: 10px 20px;
 }
 
 nav ul li a {
@@ -61,11 +61,19 @@ nav ul li a:visited {
    text-decoration: none;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
-   background-color: lightskyblue;
+nav ul li a:link, nav ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+  
+nav ul li a:hover  {
+  text-decoration: underline;
 }
 
+nav ul li a:active {
+    color: navy;
+    text-decoration: none;
+}
 
 p a:link, a:visited {
    color: blue;
@@ -143,4 +151,24 @@ h1, h2, h3 {
     width: 80%;
     margin: 0 auto;
 }
+
+img.feature {
+  float:right;
+  margin-left: 1%;
+}
+
+#content {
+	display: flex;
+}
+
+nav {
+  background-color: dodgerblue;
+  flex: 1;
+}
+
+main {
+  flex:5;
+  padding-left:1em;
+}
+
 
